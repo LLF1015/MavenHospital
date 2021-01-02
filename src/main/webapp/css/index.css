@@ -1,0 +1,238 @@
+.black_nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.wrap{
+    width:660px;
+    margin: 0 auto;
+}
+.wrap1{
+    margin-left: 16%;
+}
+.nav_left{
+    float: left;
+}
+.black_nav li{
+    float: left;
+}
+.black_nav a{
+    color: #b0b0b0;
+}
+.black_nav span{
+    color: #424242;
+    margin: 0 5px;
+}
+.black_nav a:hover{
+    color: #fff;
+}
+.nav_enter{
+    float: right;
+}
+
+.white_nav{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+.logo{
+    float: left;
+    margin-top: 21.5px;
+}
+.white_nav_ul{
+    width: 992px;
+    float: right;
+}
+.white_nav_ul>li{
+    float: left;
+    padding: 0 10px;
+}
+.white_nav_ul a{
+    color: #333;
+}
+.white_nav_ul a:hover{
+    color: #ff6700;
+}
+/*轮播图*/
+.home-hero {
+    width: 800px;
+    height: 350px;
+    overflow:hidden;/*超出部分隐藏*/
+    position: relative;
+}
+
+.home-hero #imags{
+    width: 2400px;
+    height: 246px;
+}
+
+.home-hero #imags li{
+    float: left;
+}
+
+.home-hero #icons {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.home-hero #icons li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    margin-left: 5px;
+    line-height: 25px;
+}
+/*轮播图结束*/
+
+/*内容开始*/
+.service-box-goods h2{
+    display: block;
+    font-size:30px;
+    margin-top:30px;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    line-height: 106px;
+}
+.service-box-goods .box-hd{
+    width: 1226px;
+    height: 610px;
+    background-color: #f5f5f5;
+}
+.service-box-goods .box-hd div{
+    float: left;
+    text-align: center;
+    width:292px;
+    height: 287px;
+    margin:0 7px 18px 7.5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.service-box-goods .box-hd div:hover{
+    /*设置阴影*/
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.18);
+
+}
+.service-box-goods .box-hd div:hover p{
+    color: #FF6700;
+}
+.service-box-goods .box-hd img{
+    vertical-align: middle;
+}
+.service-box-goods .box-hd .goods-title{
+    display: block;
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.right{
+    float: right;
+}
+
+/*内容结束*/
+
+/*尾部样式开始*/
+.site-footer{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 26px;
+}
+.site-footer .footer-top{
+    padding:27px;
+    border-bottom:1px solid #e0e0e0;
+    height: 25px;
+}
+.site-footer .footer-top li{
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+
+}
+.site-footer .footer-top li:first-child{
+    border-left: 0;
+}
+.site-footer .footer-top li a:hover{
+    color: #FF6700;
+}
+.site-footer .footer-top li a{
+    color: #616161;
+}
+.site-footer .footer-top li a i{
+    margin-right: 6px;
+    font-size:24px;
+    line-height: 24px;
+}
+
+.site-footer .footer-top ul{
+    width:1226px;
+}
+.site-footer .footer-middle{
+    width: 1226px;
+    height: 172px;
+    margin: 40px 0;
+}
+.site-footer .footer-middle dl:first-child{
+    margin-left:133px;
+}
+.site-footer .footer-middle dl{
+    float: left;
+    width:160px;
+    margin: 0;
+}
+.site-footer .footer-middle dl dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.site-footer .footer-middle dl dd{
+    margin: 10px 0 0;
+    font-size: 12px;
+    color: #757575;
+}
+.site-info{
+    padding: 30px 0;
+    font-size:12px;
+}
+.site-info img{
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.site-info .wrap{
+    position: relative;
+}
+.site-info p{
+    *float: left;
+    margin: 0;
+    line-height: 18px;
+    text-align: left;
+}
+.site-info .info-text {
+    padding-left: 67px;
+}
+.site-info .info-text a{
+    color: #b0b0b0;
+}
+.site-info .info-text .sites a{
+    color: #757575;
+}
+
+/*尾部样式结束*/
